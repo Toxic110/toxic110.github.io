@@ -1,0 +1,338 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="date=no"/>
+  <meta name="format-detection" content="address=no"/>
+  <meta name="format-detection" content="email=no"/>
+  <link rel="stylesheet" href="css/app.css">
+  <title>Услуги и сервисы Пермского края</title>
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="header__content container">
+      <div class="header__block">
+        <a href="/" class="header__link">
+          <div class="header__logo">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <div class="header__logo-text">
+            Услуги и сервисы Пермского края
+          </div>
+        </a>
+      </div>
+      <div class="header__block">
+        <div class="header__user">
+          <div class="header__user-name">Константинопольский К.К</div>
+        </div>
+        <div class="header__logout">Выйти</div>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="section-head-info container">
+  <div class="head-info">
+    <div class="head-info__block">
+      <div class="head-info__title">
+        Выдача градостроительного плана земельного участка
+      </div>
+      <div class="head-info__subtitle">
+        Градостроительный план земельного участка выдается в целях обеспечения субъектов градостроительной
+        деятельности информацией, необходимой для архитектурно&nbsp;-&nbsp;строительного проектирования, строительства,
+        реконструкции объектов капитального строительства в границах земельного участка.
+      </div>
+    </div>
+    <div class="head-info__block head-info__block-with-logo">
+      <div class="head-info__logo">
+        <img src="images/logo-gos.svg" alt="logo">
+      </div>
+      <div class="head-info__logo-info">
+        <div class="head-info__logo-text">Услугу предоставляет</div>
+        <div class="head-info__logo-subtext">Орган местного самоуправления</div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="section-steps-form container">
+    <form class="form-applicant">
+      <div class="steps-form">
+        <div class="steps-form__block step-form__block--one">
+  <div class="steps-form__number">1</div>
+  <div class="steps-form__title">Выбор заявителя</div>
+  <div class="steps-form__edit js-edit-step-one">
+    <div class="steps-form__edit-icon">
+      <img src="images/edit.svg" alt="icon">
+    </div>
+    <div class="steps-form__edit-text">Изменить</div>
+  </div>
+  <div class="steps-form__content">
+    <div class="form__row">
+      <div class="form__radio">
+        <input id="radio-1" type="radio" name="radio" value="1" checked>
+        <label for="radio-1">
+          <span class="form__radio-circle"></span>
+          <span class="form__radio-title">
+            Константинопольский К.К.
+          </span>
+          <span class="form__radio-subtitle">
+            Физическое лицо
+          </span>
+        </label>
+      </div>
+    </div>
+    <div class="form__row">
+      <div class="form__radio">
+        <input id="radio-2" type="radio" name="radio" value="2">
+        <label for="radio-2">
+          <span class="form__radio-circle"></span>
+          <span class="form__radio-title">
+            ООО «Константинополь»
+          </span>
+          <span class="form__radio-subtitle">
+            Юридическое лицо
+          </span>
+        </label>
+      </div>
+    </div>
+    <div class="form__row">
+      <button class="btn-blue js-btn-nex" type="button">Продолжить</button>
+    </div>
+  </div>
+</div>
+
+        <div class="steps-form__block step-form__block--two steps-form__block--disabled">
+  <div class="steps-form__number">2</div>
+  <div class="steps-form__title">Данные заявителя</div>
+  <div class="steps-form__edit js-edit-step-two">
+    <div class="steps-form__edit-icon">
+      <img src="images/edit.svg" alt="icon">
+    </div>
+    <div class="steps-form__edit-text">Изменить</div>
+  </div>
+  <div class="steps-form__content">
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Фамилия</span>
+        <input class="js-input-fio" type="text" name="surname" placeholder="Ваша фамилия">
+      </label>
+    </div>
+
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Имя</span>
+        <input class="js-input-fio" type="text" name="youname" placeholder="Ваше имя">
+      </label>
+    </div>
+
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Отчество</span>
+        <input class="js-input-fio" type="text" name="patronymic" placeholder="Ваше отчество">
+      </label>
+    </div>
+
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Электронная почта</span>
+        <input type="text" name="email" placeholder="Ваша почта">
+      </label>
+    </div>
+
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Телефон</span>
+        <input type="text" name="phone" placeholder="Ваш телефон">
+      </label>
+    </div>
+
+    <div class="form__subtitle">
+      Документ, удостоверяющий личность
+    </div>
+
+    <div class="form__row">
+      <label>
+        <span class="form__row-label">Документ</span>
+        <select class="js-document-select">
+          <option value="1">Паспорт</option>
+          <option value="2">Водительское удостовирение</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="form__row form__document document__passport js-document-passport">
+      <div class="form__row">
+        <div class="form__row--medium">
+          <label>
+            <span class="form__row-label">Серия</span>
+            <input class="js-passport-series" type="text" name="passportSeries" placeholder="Серия паспорта">
+          </label>
+        </div>
+        <div class="form__row--long">
+          <label>
+            <span class="form__row-label">Номер</span>
+            <input class="js-passport-number" type="text" name="passportNumber" placeholder="Номер паспорта">
+          </label>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__row-label offset-margin">Когда выдан</div>
+        <div class="form__row--short">
+          <label>
+            <span class="form__row-label">День</span>
+            <input class="js-passport-day" type="text" name="passportDay" placeholder="День">
+          </label>
+        </div>
+        <div class="form__row--short">
+          <label>
+            <span class="form__row-label">Месяц</span>
+            <input class="js-passport-month" type="text" name="passportMonth" placeholder="Месяц">
+          </label>
+        </div>
+        <div class="form__row--medium-long">
+          <label>
+            <span class="form__row-label">Год</span>
+            <input class="js-passport-year" type="text" name="passportYear" placeholder="Год">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form__row form__document document__drive js-document-drive">
+      <div class="form__row">
+        <label>
+          <span class="form__row-label">Номер</span>
+          <input class="js-drive-number" type="text" name="driveNumber" placeholder="Номер">
+        </label>
+      </div>
+
+      <div class="form__row">
+        <label>
+          <span class="form__row-label">Подразделение</span>
+          <input class="js-drive-chapter" type="text" name="driveChapter" placeholder="Номер подразделения">
+        </label>
+      </div>
+    </div>
+
+    <div class="form__row">
+      <button class="btn-blue js-btn-nex" type="button">Продолжить</button>
+    </div>
+  </div>
+</div>
+
+        <div class="steps-form__block step-form__block--three steps-form__block--disabled">
+  <div class="steps-form__number">3</div>
+  <div class="steps-form__title">Согласие</div>
+  <div class="steps-form__content">
+    <ul class="pact-list">
+      <li class="pact-list__item--title">
+        <span>Требуется ваше согласие по следующим пунктам:</span>
+      </li>
+      <li class="pact-list__item">
+        <span>Я подтверждаю, что вся представленная информация является достоверной и точной;</span>
+      </li>
+      <li class="pact-list__item">
+        <span>
+          Я несу ответственность в соответствии с&nbsp;действующим законодательством Российской Федерации за
+          предоставление заведомо ложных или неполных сведений;
+        </span>
+      </li>
+      <li class="pact-list__item">
+        <span>
+          Я выражаю свое согласие на необходимое использование и&nbsp;обработку своих персональных данных,
+          в&nbsp;том числе в&nbsp;информационных системах;
+        </span>
+      </li>
+      <li class="pact-list__item">
+        <span>Со сроками оказания государственной услуги ознакомлен.</span>
+      </li>
+    </ul>
+    <div class="form__row">
+      <div class="form__checkbox">
+        <input id="checkbox-confirm" class="js-checkbox-form" type="checkbox" name="checkbox-confirm" value="1">
+        <label for="checkbox-confirm">
+          <span class="form__checkbox-box"></span>
+          <span class="form__checkbox-text">
+              Я подтверждаю свое согласие со всеми вышеперечисленными пунктами
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="form__row">
+      <div class="form__checkbox">
+        <input id="checkbox-notified" class="js-checkbox-form" type="checkbox" name="checkbox-notified" value="2" checked>
+        <label for="checkbox-notified">
+          <span class="form__checkbox-box"></span>
+          <span class="form__checkbox-text">
+              Я уведомлен о том, что результат будет получен в&nbsp;электронном виде
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="notification">
+      <div class="notification__text">
+        Пожалуйста, еще раз внимательно проверьте все данные перед отправкой
+      </div>
+    </div>
+
+    <div class="form__row">
+      <button class="btn-blue js-btn-form" type="submit" disabled>Отправить</button>
+    </div>
+    <div class="form__row">
+      <div class="rules-text">
+        Нажимая кнопку «Отправить», вы соглашаетесь с
+        <a href="https://lh3.googleusercontent.com/proxy/Bos4MiSbjxgyYZAm_J5wQZ1UxjoaK-3G-FnxtNAdid4tudvyAlvANbfkmFtRwP4YLfLNO2lfe6bS0w1yezg"
+           target="_blank"
+           rel="noopener noreferrer"
+        >
+          правилами хранения и&nbsp;обработки персональных данных
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="steps-form__block steps-form__success">
+  <div class="steps-form__number">1</div>
+  <div class="steps-form__title">Заявление принято</div>
+  <div class="steps-form__content--medium">
+
+    <div class="success-info">
+      <div class="success-info__text">
+        Номер заявления <span class="success-info__number">RU-1234567.</span> Максимальный срок предоставления
+        услуги —&nbsp;20 рабочих дней.
+        Следите за статусом заявления в&nbsp;<a href="#" class="success-info__personal">Личном&nbsp;кабинете.</a>
+      </div>
+      <div class="success-info__text">
+        Если у вас остались вопросы по оказанию услуги, пожалуйста, обращайтесь по телефону
+        <a href="tel:+73421234567" class="success-info__phone">+7 (342) 123-45-67.</a>
+      </div>
+
+      <div class="success-info__link--wrap">
+        <div class="success-info__link">
+          <a href="#" class="btn-blue" target="_blank">Вернуться в каталог</a>
+        </div>
+        <div class="success-info__link">
+          <a href="#" class="btn-outline" target="_blank">Перейти в личный кабинет</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </form>
+  </section>
+</main>
+<footer>
+    
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
